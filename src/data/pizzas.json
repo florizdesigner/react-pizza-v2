@@ -1,0 +1,162 @@
+[
+  {
+    "id": "0",
+    "title": "Бьянка",
+    "imageURL": "https://sun9-39.userapi.com/impg/NPSusCU2Zi1KbfPtqpoQ6X5Vg_H6eMwU1lmP0g/39KymdnHvgQ.jpg?size=1920x1920&quality=96&sign=f257106ef67350b0268d6d0c5fe48ccc&type=album",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": "450",
+    "category": "0",
+    "rating": "4"
+  },
+  {
+    "id": "1",
+    "title": "Маргарита",
+    "imageURL": "https://sun9-44.userapi.com/impg/uqo5GX5__afxMC2OkV5Pc7JWeyd2ZVlHbWHtmA/V8CTmr2BCTc.jpg?size=1920x1920&quality=96&sign=848b7f6e948fca61cd260f27af743403&type=album",
+    "types": [0, 1],
+    "sizes": [26, 40],
+    "price": "550",
+    "category": "1",
+    "rating": "3"
+  },
+  {
+    "id": "2",
+    "title": "Грибная",
+    "imageURL": "https://sun9-9.userapi.com/impg/FnNWOIe6izu4v7y19jnceRe0Ihwv3ntJzIt_5w/n6hlwB96Fto.jpg?size=1920x1920&quality=96&sign=9599d459a0f8a9b6048c4b1c933cd8fc&type=album",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": "400",
+    "category": "0",
+    "rating": "2"
+  },
+  {
+    "id": "3",
+    "title": "Пепперони",
+    "imageURL": "https://sun9-7.userapi.com/impg/VFI6O5BP64mEjAEEIdkrYgv6c_h1fRry27AW3Q/EyB7wC7Ogws.jpg?size=1920x1920&quality=96&sign=3bcba384d1c7d6accd87e06612069e11&type=album",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": "300",
+    "category": "0",
+    "rating": "2"
+  },
+  {
+    "id": "5",
+    "title": "Сырная",
+    "imageURL": "https://sun9-46.userapi.com/impg/OZrZqnb6jsSe2nDVpS_cxRnOzY-yfRJbxii33Q/aOkKp4AT7Kk.jpg?size=1920x1920&quality=96&sign=5c5ec6976f3687fd7dccc9fe79eb011f&type=album",
+    "types": [0],
+    "sizes": [26, 30, 40],
+    "price": "300",
+    "category": "3",
+    "rating": "https://sun9-1.userapi.com/impg/PMo5tN2UYwuHjTI4StBXecggE3BdZtbwE_T1aw/rMbAtyz46Uc.jpg?size=1920x1920&quality=96&sign=016813b5a37cbcce1fe5ffc04f31a1f4&type=album"
+  },
+  {
+    "id": "6",
+    "title": "Ветчина и грибы",
+    "imageURL": "https://sun9-1.userapi.com/impg/PMo5tN2UYwuHjTI4StBXecggE3BdZtbwE_T1aw/rMbAtyz46Uc.jpg?size=1920x1920&quality=96&sign=016813b5a37cbcce1fe5ffc04f31a1f4&type=album",
+    "types": [1],
+    "sizes": [30, 40],
+    "price": "300",
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": "7",
+    "title": "Цыпленок Песто",
+    "imageURL": "https://sun9-81.userapi.com/impg/SLyHr6OqwByyTbIeSKoHZ6TAw-gjuOEwLTpJqA/VmoKsnSG_FQ.jpg?size=1920x1920&quality=96&sign=8fcd12c85e422d9ad07b9f7c35e15eeb&type=album",
+    "types": [0, 1],
+    "sizes": [26, 30],
+    "price": "290",
+    "category": "2",
+    "rating": "3"
+  },
+  {
+    "id": "8",
+    "title": "Ростбиф и огурчик",
+    "imageURL": "https://sun9-86.userapi.com/impg/bf55jJxg-j8mTLyB06vjkVog0HgPjyvghgh8vg/lFPi-Lm4k34.jpg?size=1920x1920&quality=96&sign=c323e6a9e78af273d4e49548478e871f&type=album",
+    "types": [0, 1],
+    "sizes": [26, 30],
+    "price": "290",
+    "category": "2",
+    "rating": "3"
+  },
+  {
+    "id": "9",
+    "title": "Груша и горгонзола",
+    "imageURL": "https://sun9-79.userapi.com/impg/JUsaSOK4W3Wi8i7dsNZ57qSlzitIpdBEKE-AXQ/NLIrnA5qdjY.jpg?size=1920x1920&quality=96&sign=09175771f25ae3bab5e777f4176827ad&type=album",
+    "types": [0, 1],
+    "sizes": [26, 30],
+    "price": "290",
+    "category": "2",
+    "rating": "3"
+  },
+  {
+    "id": "10",
+    "title": "Печь",
+    "imageURL": "https://sun9-49.userapi.com/impg/-57nomnwAc7TGUEri0Ziqzbav4teMB3_AlaBDA/uwVLMO_lIqk.jpg?size=1920x1920&quality=96&sign=c56a3030e98635b12fcd6ed13cef909e&type=album",
+    "types": [0],
+    "sizes": [26, 30],
+    "price": "290",
+    "category": "2",
+    "rating": "3"
+  },
+  {
+    "id": "11",
+    "title": "Цезарь",
+    "imageURL": "https://sun9-39.userapi.com/impg/E4GZ7D1-dC9g_Nk8-4UsH7Wf-pXnU4LfdXW-2A/cUQa7I69RJs.jpg?size=1920x1920&quality=96&sign=360a2bfa1e3d20fee8b2dd4ce5f279a2&type=album",
+    "types": [1],
+    "sizes": [30],
+    "price": "290",
+    "category": "2",
+    "rating": "3"
+  },
+  {
+    "id": "12",
+    "title": "Карбонара",
+    "imageURL": "https://sun9-55.userapi.com/impg/tVTTLY3-uMQn8lmSsuaPq37LpWfHFiA9zu5Xcg/RkQLrLGhNeg.jpg?size=1920x1920&quality=96&sign=e01950d7adc11386e9fc7c93c638abad&type=album",
+    "types": [1],
+    "sizes": [30],
+    "price": "290",
+    "category": "2",
+    "rating": "3"
+  },
+  {
+    "id": "13",
+    "title": "Филадельфия",
+    "imageURL": "https://sun9-7.userapi.com/impg/0WsUj1-3izFY05jlUmVHn_EwtsWnyYJwTczBCw/XEE_Qof74E4.jpg?size=1920x1920&quality=96&sign=8b903e66780b5ad356f2db702576eb0f&type=album",
+    "types": [0, 1],
+    "sizes": [30, 40],
+    "price": "290",
+    "category": "2",
+    "rating": "3"
+  },
+  {
+    "id": "14",
+    "title": "Болоньезе",
+    "imageURL": "https://sun9-36.userapi.com/impg/esxZZJUvCyfBA8Daog2rgng0YFGIvn0ILmbDVg/G-BP12Pva6c.jpg?size=1920x1920&quality=96&sign=5fce4ba5ba8b7fb8d5f92753d4015c50&type=album",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": "290",
+    "category": "2",
+    "rating": "3"
+  },
+  {
+    "id": "15",
+    "title": "Кентукки",
+    "imageURL": "https://sun9-28.userapi.com/impg/NkURznEj9WaJwlElTKC8k22a2D-nOUurhOHhbw/KhNpxN7F54M.jpg?size=1920x1920&quality=96&sign=6c69480f92f4f82480df0dba6ccf4627&type=album",
+    "types": [0, 1],
+    "sizes": [26, 40],
+    "price": "290",
+    "category": "2",
+    "rating": "3"
+  },
+  {
+    "id": "16",
+    "title": "Капричоза",
+    "imageURL": "https://sun9-87.userapi.com/impg/6C1JiGOnECFk__c8JKqG8cfPBUkdj2bH-SiJKA/K7ZcAg0Divo.jpg?size=1920x1920&quality=96&sign=e0d39417b85a44b684d86016ed70364e&type=album",
+    "types": [1],
+    "sizes": [26, 40],
+    "price": "290",
+    "category": "2",
+    "rating": "3"
+  }
+]

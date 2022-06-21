@@ -1,0 +1,119 @@
+@import "../../variables";
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  transition: .3s linear;
+
+  &:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+
+  img {
+    border-radius: 100px;
+    -webkit-border-radius: 100px; // для сафари
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+    outline: 10px solid $background-color;
+    outline-offset: -5px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  &_menu {
+    font-size: 10px;
+    margin-bottom: 20px;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    padding: 0 10px;
+
+    ul {
+      text-align: center;
+      padding: 0;
+    }
+
+    li {
+      padding: 5px 0;
+      list-style-type: none;
+      cursor: pointer;
+    }
+
+    &_dough {
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        li {
+          flex: 1 1;
+        }
+      }
+    }
+
+    &_diameter {
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        li {
+          flex: 1 1;
+        }
+      }
+    }
+    transition: .2s linear;
+
+    &_active {
+      background-color: #fff;
+      border-radius: 5px;
+      transition: .2s linear;
+
+    }
+  }
+
+  &_add {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &_price {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    &_button {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100px;
+      background-color: $main-color;
+      padding: 7px 0;
+      border-radius: 35px;
+
+      text-transform: lowercase;
+      color: #fff;
+      font-size: 12px;
+
+      &:hover {
+        cursor: pointer;
+        opacity: .9;
+        //background-color: #fff;
+        //color: $main-color;
+        //box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+      }
+
+      &__counter {
+        color: $main-color;
+        background-color: #fff;
+
+        border-radius: 150px;
+        padding: 4px 8px;
+      }
+    }
+  }
+}

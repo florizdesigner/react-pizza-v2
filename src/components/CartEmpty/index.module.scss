@@ -1,0 +1,35 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 100px;
+
+  &_text {
+    text-align: center;
+    width: 40vw;
+    margin: 0 auto 50px auto;
+    span {
+      font-size: 18px;
+      font-weight: 400;
+      color: #777777;
+    }
+  }
+
+  img {
+    max-width: 20vw;
+    margin: 0 auto 50px auto;
+  }
+
+  a {
+    text-decoration: none;
+    max-width: 13vw;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 auto 50px auto;
+    cursor: pointer;
+  }
+}

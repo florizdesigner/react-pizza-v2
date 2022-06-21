@@ -1,0 +1,77 @@
+@import "variables";
+
+html {
+  background-color: $background-color;
+}
+
+.appWrapper {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 100%;
+  margin: 50px auto;
+  max-width: 1400px;
+  width: calc(100vw - 100px);
+
+
+  @media (max-width: 1400px) {
+    margin: 30px auto;
+    width: calc(100vw - 60px);
+  }
+  
+  @media (max-width: 1050px) {
+    width: 100vw;
+  }
+
+  .app {
+    //background-color: #ccc111;
+  }
+}
+
+
+.content {
+  //display: flex;
+  //justify-content: space-evenly;
+  //flex-wrap: wrap;
+
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  //grid-template-rows: repeat(2, 1fr);
+  gap: 20px 20px;
+  justify-content: center;
+  position: relative;
+
+  //grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); --- еще не разобрался
+@media (max-width: 1400px) {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+  @media (max-width: 1080px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 765px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+
+.nothingBlock {
+margin: 0 auto;
+  h1 {
+    margin-bottom: 25px;
+  }
+
+  button {
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: $main-color;
+    color: #fff;
+    font-weight: 700;
+  }
+}

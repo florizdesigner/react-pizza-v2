@@ -1,0 +1,37 @@
+.search {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    border: none;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 10px 100px 10px 20px;
+    transition: .3s linear;
+    color: #ababab;
+
+    &:focus {
+      border: none;
+      outline: none;
+      background-color: #FFDF8C;
+      color: #e3a200;
+
+      &::placeholder {
+        color: #e3a200;
+      }
+    }
+  }
+
+  img {
+    position: absolute;
+    right: 5%;
+    top: 42%;
+  }
+
+  &__button_clear {
+    cursor: pointer;
+  }
+}
