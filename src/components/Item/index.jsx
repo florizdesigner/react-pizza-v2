@@ -9,7 +9,7 @@ const Item = ({ imageURL, title, price, types, sizes }) => {
 
   return (
     <div className={styles.item}>
-      <img src={imageURL} alt="pizza" width="200px" />
+      <img src={imageURL} alt="pizza" width="200px" height="200px" />
       <h2>{title}</h2>
       <div className={styles.item_menu}>
         <div className={styles.item_menu_dough}>

@@ -14,7 +14,6 @@ export const LoaderItem = (props) => (
       foregroundColor="#ecebeb"
       {...props}
     >
-      <rect x="16" y="NaN" rx="0" ry="0" width="220" height="NaN" />
       <circle cx="110" cy="110" r="110" />
       <rect x="0" y="284" rx="10" ry="10" width="220" height="73" />
       <rect x="-1" y="240" rx="10" ry="10" width="220" height="24" />

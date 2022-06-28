@@ -5,20 +5,22 @@ import Item from "../../components/Item";
 import { LoaderItem } from "../../components/Loaders";
 import Pagination from "../../components/Pagination";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
+import {
+  setCategoryId,
+  setSort,
+  setSortDesc,
+} from "../../redux/slices/filterSlice";
 
 const Home = ({ searchValue, setSearchValue }) => {
+  const dispatch = useDispatch();
+  const categoryId = useSelector((state) => state.filter.categoryId);
+  const sortSelector = useSelector((state) => state.filter.sort);
+
   const [pizzas, setPizzas] = React.useState([]);
   const [isLoading, setIsLoading] = React.useState(false);
 
   const [page, setPage] = React.useState(0);
-
-  const [categoryId, setCategoryId] = React.useState(0);
-  const [orderDESC, setOrderDESC] = React.useState(true);
-  const [selector, setSelector] = React.useState({
-    name: "популярности",
-    sortProperty: "rating",
-  });
 
   // ниже фильтруем по значению из ввода input searchValue
   const items = pizzas
@@ -41,8 +43,8 @@ const Home = ({ searchValue, setSearchValue }) => {
   );
 
   React.useEffect(() => {
-    const sortby = `sortBy=${selector.sortProperty}`;
-    const order = `&order=${orderDESC ? "desc" : "asc"}`;
+    const sortby = `sortBy=${sortSelector.sortProperty}`;
+    const order = `&order=${sortSelector.desc ? "desc" : "asc"}`;
     const category = categoryId !== 0 ? `&category=${categoryId}` : "";
     const getPage = page === 0 ? "&page=1&limit=4" : `&page=${page}&limit=4`;
 
@@ -55,17 +57,17 @@ const Home = ({ searchValue, setSearchValue }) => {
         setPizzas(resp.data);
         setIsLoading(false);
       });
-  }, [selector, orderDESC, categoryId, page]);
+  }, [sortSelector, categoryId, page]);
 
   return (
     <div>
       <Categories
-        value={selector}
-        onClickSort={setSelector}
-        orderBy={orderDESC}
-        onClickOrderBy={setOrderDESC}
+        value={sortSelector}
+        onClickSort={(obj) => dispatch(setSort(obj))}
+        orderBy={sortSelector.desc}
+        onClickOrderBy={() => dispatch(setSortDesc(!sortSelector.desc))}
         categoryId={categoryId}
-        onClickCategory={setCategoryId}
+        onClickCategory={(id) => dispatch(setCategoryId(id))}
       />
 
       <div className={styles.content}>

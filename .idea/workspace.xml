@@ -2,43 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd6dd9c-9b86-4e51-94de-79e20dee138e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CartEmpty/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CartEmpty/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CartItem/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CartItem/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Categories/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Categories/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Category/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Category/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Item/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Item/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Loaders/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Loaders/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pagination/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pagination/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Search/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Search/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/pizzas.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/404/404.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Cart/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Cart/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/NotFound/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/NotFound/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/slices/filterSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/clear.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/clear.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Categories/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Categories/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Loaders/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loaders/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pagination/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +37,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2AcNqk3dBIctkAdL37MLbAe6to4" />
   <component name="ProjectLevelVcsManager">
@@ -87,11 +65,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/redux" />
       <recent name="$PROJECT_DIR$/src/pages/404" />
       <recent name="$PROJECT_DIR$/src/pages/Home" />
       <recent name="$PROJECT_DIR$/src/pages/Cart" />
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -103,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655305106662</updated>
       <workItem from="1655305107975" duration="59063000" />
-      <workItem from="1655719503391" duration="13986000" />
+      <workItem from="1655719503391" duration="28079000" />
     </task>
     <servers />
   </component>

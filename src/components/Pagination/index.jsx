@@ -8,12 +8,6 @@ const Pagination = ({ pages, setPage }) => {
 
   return (
     <div className={styles.pagination}>
-      <apple-pay-button
-        buttonstyle="black"
-        type="buy"
-        locale="el-GR"
-      ></apple-pay-button>
-
       <ReactPaginate
         breakLabel="..."
         nextLabel=">"

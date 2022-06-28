@@ -10,15 +10,13 @@ const Categories = ({
   categoryId,
   onClickCategory,
 }) => {
-  const [activeIndex, setActiveIndex] = React.useState(0);
-
   const [isVisiblePopup, setIsVisiblePopup] = React.useState(false);
 
   const categories = ["Все", "Классические", "Авторские"];
   const list = [
-    { name: "популярности", sortProperty: "rating" },
-    { name: "цене", sortProperty: "price" },
-    { name: "алфавиту", sortProperty: "title" },
+    { name: "популярности", sortProperty: "rating", desc: orderBy },
+    { name: "цене", sortProperty: "price", desc: orderBy },
+    { name: "алфавиту", sortProperty: "title", desc: orderBy },
   ];
 
   return (
@@ -76,6 +74,7 @@ const Categories = ({
                       value.name === obj.name ? styles.sort_popup__active : ""
                     }
                     onClick={() => {
+                      console.log(obj);
                       onClickSort(obj);
                       setIsVisiblePopup(false);
                     }}
